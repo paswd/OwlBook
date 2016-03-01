@@ -58,6 +58,18 @@ angular.module('starter.controllers', [])
   ];
 })
 
+.controller('VideosCtrl', function($scope) {
+  $scope.videos = [
+    { title: 'Алгебра логики', id: 1 },
+    { title: 'Системы счистления', id: 2 }
+  ];
+})
+
+.controller('Video1Ctrl', function($scope, $stateParams) {
+})
+.controller('Video2Ctrl', function($scope, $stateParams) {
+})
+
 .controller('Test1Ctrl', function($scope, $stateParams) {
   $scope.Test1Check = function() {
     var cnt = 0;

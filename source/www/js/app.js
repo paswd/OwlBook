@@ -86,6 +86,33 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+  .state('app.videos', {
+      url: '/videos',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/videos.html',
+          controller: 'VideosCtrl'
+        }
+      }
+    })
+  .state('app.video1', {
+      url: '/videos/video1.html',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/video1.html',
+          controller: 'Video1Ctrl'
+        }
+      }
+    })
+  .state('app.video2', {
+      url: '/videos/video2.html',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/video2.html',
+          controller: 'Video2Ctrl'
+        }
+      }
+    })
   .state('app.settings', {
       url: '/settings',
       views: {
