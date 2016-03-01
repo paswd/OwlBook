@@ -1,0 +1,9 @@
+<ion-view view-title="Библиотека">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="book in library" href="#/app/library/?book={{book.id}}">
+        {{book.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

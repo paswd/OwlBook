@@ -1,0 +1,83 @@
+#content {
+	margin:0;
+	padding:15px 15px;
+}
+
+input {
+	background:#FFF;
+	border:#999 1px solid;
+	border-radius:3px;
+	color:#000;
+}
+
+select {
+	background:#FFF;
+	border:none;
+	border-bottom:#999 1px solid;
+	/*border-radius:3px;*/
+	color:#000;
+	width:100%;
+	height:40px;
+	margin-top:10px;
+}
+p {
+	margin-bottom:10px;
+}
+.submit {
+	width:100%;
+	height:40px;
+	margin-top:20px;
+}
+.basSubmit {
+	display:block;
+	width:100%;
+	margin-top:20px;
+	background:#FFF;
+	border:#999 1px solid;
+	border-radius:3px;
+	color:#000;
+	text-decoration:none;
+	text-align:center;
+	padding:10px 0;
+}
+
+.about {
+	margin-bottom:15px;
+}
+
+.question {
+	margin-bottom:25px;
+}
+.question .answer {
+	margin-right:5px;
+}
+table {
+	border:#000 2px solid;
+	margin:20px 0;
+}
+tr {
+	border:#000 2px solid;
+}
+td {
+	border:#000 2px solid;
+	padding:0 10px;
+	text-align:center;
+}
+
+.book {
+	margin:0;
+	padding:15px 15px;
+	text-align:justify;
+}
+.selectable {
+  	/*-webkit-user-select:auto !important;
+  	-moz-user-select:auto !important;
+  	-ms-user-select:auto !important;
+  	user-select:auto !important;*/
+}
+.formula {
+	margin:20px 0;
+}
+.overlined {
+	text-decoration:overline;
+}
